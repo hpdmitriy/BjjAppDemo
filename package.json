@@ -1,0 +1,73 @@
+{
+  "name": "Bjj4All",
+  "version": "2.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "clear": "rm -rf $TMPDIR/react-native-packager-cache-* && rm -rf $TMPDIR/metro-bundler-cache-*",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.35",
+    "apisauce": "^0.14.2",
+    "appcenter": "^1.0.1",
+    "appcenter-analytics": "^1.0.1",
+    "appcenter-crashes": "^1.0.1",
+    "base-64": "^0.1.0",
+    "entities": "^1.1.1",
+    "htmlparser2-without-node-native": "^3.9.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.3",
+    "prop-types": "^15.6.0",
+    "ramda": "^0.25.0",
+    "react": "16.0.0",
+    "react-native": "0.50.4",
+    "react-native-animatable": "^1.2.4",
+    "react-native-code-push": "^5.2.1",
+    "react-native-fetch-blob": "wkh237/react-native-fetch-blob#0.10.9",
+    "react-native-i18n": "^2.0.9",
+    "react-native-image-picker": "^0.26.7",
+    "react-native-linear-gradient": "^2.4.0",
+    "react-native-mime-types": "^2.2.1",
+    "react-native-modal-dropdown": "^0.5.0",
+    "react-native-push-notification": "^3.0.2",
+    "react-native-vector-icons": "^4.5.0",
+    "react-navigation": "1.0.0-beta.11",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-persist": "^5.6.12",
+    "redux-saga": "^0.16.0",
+    "reduxsauce": "^0.7.0",
+    "reselect": "^3.0.1",
+    "seamless-immutable": "^7.1.2",
+    "socketcluster-client": "^8.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-jsx": "^4.0.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0",
+    "reactotron-react-native": "^1.13.2",
+    "reactotron-redux": "^1.13.0",
+    "reactotron-redux-saga": "^1.13.0",
+    "redux-logger": "^3.0.6",
+    "standard": "^10.0.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}

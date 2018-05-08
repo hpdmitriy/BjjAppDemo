@@ -1,0 +1,42 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Bjj4All' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Bjj4All
+  pod 'AppCenter/Crashes', '~> 1.0.1'
+  pod 'AppCenter/Analytics', '~> 1.0.1'
+  pod 'AppCenterReactNativeShared', '~> 1.0.1'
+
+
+
+  pod 'CodePush', :path => '../node_modules/react-native-code-push'
+
+  pod 'React', :path => '../node_modules/react-native'
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
+  pod 'react-native-fetch-blob', :path => '../node_modules/react-native-fetch-blob'
+
+  target 'Bjj4AllTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'Bjj4All-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Bjj4All-tvOS
+
+  target 'Bjj4All-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

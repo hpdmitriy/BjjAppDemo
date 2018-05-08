@@ -1,0 +1,12 @@
+export const API_URL = '*************'
+export const IMAGES_PATH = `${API_URL}/static/media/app/`
+export const MEDIA_PATH = `${API_URL}/static/media/app/`
+export const HOST_NAME = '**************'
+export const SOCKET_PORT = '443'
+export const YOUTUBE_URL = 'https://youtu.be/'
+export const YOUTOUBE_API_KEY = '**************'
+export const SCORE_LIST = [1, 2, 3, 4, 5]
+export const CONSOLE_TRON = false
+export const COUNTRY_PHONES = ['Russia (+7)', 'Belorussia (+375)']
+export const ACTIVE_TRAINING_STATUSES = ['AWAITING', 'MARKED', 'STARTED']
+export const TRAINING_NEW_MESSAGE_FOR_MARK = 'TRAINING_NEW_MESSAGE_FOR_MARK'
